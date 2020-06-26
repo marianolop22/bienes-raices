@@ -424,10 +424,13 @@ img {
 
 /* PAGINAS INERNAS */
 /* nosotros */
-.contenido-nosotros {
-    display: grid;
-    grid-template-columns: 50% 50%; /*podria poner 1fr que significa fraccion   o tambien repeat(2,1fr)*/
-    grid-column-gap: 2rem;
+@media (min-width: 768px) {
+    .contenido-nosotros {
+        display: grid;
+        grid-template-columns: 50% 50%; /*podria poner 1fr que significa fraccion   o tambien repeat(2,1fr)*/
+        grid-column-gap: 2rem;
+    }
+    
 }
 
 .texto-nosotros blockquote{
