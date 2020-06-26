@@ -181,6 +181,28 @@ img {
     color: #71B100;
 }
 
+.mobile-menu img {
+    width: 5rem;
+}
+
+@media (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+
+    }
+}
+.navegacion {
+    display: none;
+}
+.navegacion:target{
+    display: block;
+}
+@media (min-width: 768px) {
+    .navegacion {
+        display: block;
+
+    }
+}
 
 /* iconos nosotros */
 @media (min-width: 768px) {
